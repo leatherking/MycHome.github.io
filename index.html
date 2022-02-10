@@ -17,7 +17,7 @@
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
   
-    <link rel="shortcut icon" href="/css/images/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.png">
   
   
     
@@ -74,7 +74,7 @@
     <article id="post-GFR-IL" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/02/10/GFR-IL/" class="article-date">
-  <time class="dt-published" datetime="2022-02-10T02:41:13.538Z" itemprop="datePublished">2022-02-10</time>
+  <time class="dt-published" datetime="2022-02-10T03:16:36.000Z" itemprop="datePublished">2022-02-10</time>
 </a>
     
   </div>
@@ -106,7 +106,7 @@
 <h2 id="遗忘分析（CCA）"><a href="#遗忘分析（CCA）" class="headerlink" title="遗忘分析（CCA）"></a>遗忘分析（CCA）</h2><ol>
 <li><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/52110862">典型相关分析（CCA）</a>，计算特征分布的相似度</p>
 </li>
-<li><p><img src="/GFR-IL_figure2.png?raw=true" alt="GFR-IL_figure2" title="CCA"><br> $M_t$提取task $t’&lt;t$ 的特征与训练完的最佳模型 %M_{t’}% 的相似度</p>
+<li><p><img src="/.com//GFR-IL_figure2.png?raw=true" alt="GFR-IL_figure2" title="CCA"><br> $M_t$提取task $t’&lt;t$ 的特征与训练完的最佳模型 %M_{t’}% 的相似度</p>
 <ul>
 <li><p>Finetune: 高层特征更加task相关，相似度下降多；底层特征概括性更强</p>
 </li>
@@ -120,9 +120,9 @@
 </li>
 </ol>
 <h2 id="Method"><a href="#Method" class="headerlink" title="Method"></a>Method</h2><ol>
-<li><img src="/GFR-IL_figure1.png?raw=true" alt="method" title="feature replay"></li>
+<li><img src="/.com//GFR-IL_figure1.png?raw=true" alt="method" title="feature replay"></li>
 <li>模型包含：classifier、feature extractor feature generator</li>
-<li><img src="/GFR-IL_figure3.png?rwa=true" alt="framework" title="framework of GFR-IL"><ul>
+<li><img src="/.com//GFR-IL_figure3.png?rwa=true" alt="framework" title="framework of GFR-IL"><ul>
 <li><p>用feature extractor的特征训练classifier</p>
 </li>
 <li><p>训练完feature extractor和classifier后冻结，用特征训练generator</p>
@@ -153,17 +153,17 @@
 </ul>
 </li>
 <li>比较<ul>
-<li>ImageNet-100 <img src="/GFR-IL_figure4.png?raw=true" alt="实验1" title="imagenet-100"><ul>
+<li>ImageNet-100 <img src="/.com//GFR-IL_figure4.png?raw=true" alt="实验1" title="imagenet-100"><ul>
 <li>高斯采样生成比iCaRL-NME和CNN都好很多</li>
 <li>随着任务数增多，比LUCIR好得更明显</li>
 </ul>
 </li>
-<li>CIFAR100 <img src="/GFR-IL_figure5.png?raw=true" alt="实验2" title="cifar-100"><ul>
+<li>CIFAR100 <img src="/.com//GFR-IL_figure5.png?raw=true" alt="实验2" title="cifar-100"><ul>
 <li>5task、10task达到最好</li>
 <li>25task比LUCIR略差</li>
 </ul>
 </li>
-<li>空间占用 <img src="/GFR-IL_table1.png?raw=true" alt="实验3" title="storage"><ul>
+<li>空间占用 <img src="/.com//GFR-IL_table1.png?raw=true" alt="实验3" title="storage"><ul>
 <li>MeRGAN的GAN占用 8.5MB，GFR-IL占用4.5MB（ImageNet和CIFAR100都）</li>
 </ul>
 </li>
@@ -182,7 +182,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/02/10/GFR-IL/" data-id="ckzgdluxs00005kdmba30cn76" data-title="GFR-IL" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/02/10/GFR-IL/" data-id="ckzgevntb0000s4dm8t5gf57z" data-title="GFR-IL" class="article-share-link">Share</a>
       
       
       
